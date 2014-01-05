@@ -1,11 +1,15 @@
 #!/bin/env ruby
 # encoding: utf-8
 
+#
+#
+# Tested with Ruby 1.9.1 - 1.9.3 - 2.0.0 - 2.1.0
+#
+#
+
+
 # Must specify line 'encoding: utf-8'
 require_relative 'rchardet/lib/rchardet'
-
-#Encoding.default_external=Encoding::ISO_8859_1
-#puts "Encoding:External : #{Encoding.default_external.name}"
 
 str = "\xc3\xa8 Ceci est une chaîne de caractères.".force_encoding(Encoding::BINARY)
   
