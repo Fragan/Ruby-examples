@@ -1,4 +1,8 @@
-require_relative 'rchardet-2+/lib/rchardet'
+#!/bin/env ruby
+# encoding: utf-8
+
+# Must specify line 'encoding: utf-8'
+require_relative 'rchardet/lib/rchardet'
 
 #Encoding.default_external=Encoding::ISO_8859_1
 #puts "Encoding:External : #{Encoding.default_external.name}"
